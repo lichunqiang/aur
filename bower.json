@@ -1,0 +1,30 @@
+{
+  "name": "aur",
+  "version": "0.1.0",
+  "authors": [
+    "lichunqiang <light-li@hotmail.com>"
+  ],
+  "description": "angular ui router learning",
+  "main": "index",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "angular-ui",
+    "angular-ui-router",
+    "route"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.3.0",
+    "angular-ui-router": "~0.2.15"
+  }
+}

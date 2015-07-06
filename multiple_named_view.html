@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>多个view</title>
+</head>
+<body ng-app="app">
+  <div ui-view="viewA"></div>
+  <div ui-view="viewB"></div>
+
+  <a ui-sref="route1">Route 1</a>
+  <a ui-sref="route2">Route 2</a>
+
+  <footer ng-include="'demos.html'"></footer>
+
+  <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="multiple.js"></script>
+</body>
+</html>
